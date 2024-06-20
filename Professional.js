@@ -20,7 +20,7 @@ class Professional {
     }
 }
 
-const professionals = [];
+let professionals = [];
 
 document.addEventListener("DOMContentLoaded", () => {
     const enlaceProfesionales = document.getElementById("enlaceProfesionales");

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas</title>
+    <link rel="icon" type="image/x-icon" href="assets/imdb.png">
+    <link rel="stylesheet" href="imdb.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="nav-left">
+            <a href="imdb.html">IMDB</a>
+        </div>
+        <div id="nav-right">
+            <a href="peliculas.html"><button type="button">Películas</button></a>
+            <a href="profesionales.html"><button type="button">Profesionales</button></a>
+        </div>
+    </header>    
+    <main>
+        <h2>Películas</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-4 shadow-sm">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.0v6pWmUWXyKOiGfL8NKa3gHaKk%26pid%3DApi&f=1&ipt=bd051025d5192653c63a279b4a719e865b0f9de49097405538f92fd8d1083ca2&ipo=images" class="card-img-top" alt="Mad Max">
+                    <div class="card-body">
+                        <h5 class="card-title">Mad Max: Furia en la carretera</h5>
+                        <p class="card-text">8.1</p>
+                        <a href="#" class="btn btn-dark">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 shadow-sm">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.1LJ-th-2pxKGLsFjICUj6gAAAA%26pid%3DApi&f=1&ipt=d5bed40d062fbac14db85182f4bba595a3ee711674e1ba2167c9b8163d620d55&ipo=images" class="card-img-top" alt="Dune">
+                    <div class="card-body">
+                        <h5 class="card-title">Dune</h5>
+                        <p class="card-text">8.0</p>
+                        <a href="#" class="btn btn-dark">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 shadow-sm">
+                    <img src="assets/del reves.jpeg" class="card-img-top" alt="Del revés 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Del revés 2</h5>
+                        <p class="card-text">8.6</p>
+                        <a href="#" class="btn btn-dark">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4 shadow-sm">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ct5V9D0KwmdNXSvFyPSHDAHaK8%26pid%3DApi&f=1&ipt=d7437b4624bade949bf36d763f572b8e547313e5d546ab0d4c60073844d37e11&ipo=images" class="card-img-top" alt="Los juegos del hambre: Balada de pájaros cantores y serpientes">
+                    <div class="card-body">
+                        <h5 class="card-title">Los juegos del hambre: Balada de pájaros cantores y serpientes</h5>
+                        <p class="card-text">8.8</p>
+                        <a href="#" class="btn btn-dark">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form>
+            <h3>Añadir Nueva Película</h3>
+            <input type="text" placeholder="Título" required>
+            <input type="number" placeholder="Año de estreno" required>
+            <input type="text" placeholder="Nacionalidad" required>
+            <input type="text" placeholder="Género" required>
+            <input type="text" placeholder="Idioma" required>
+            <input type="text" placeholder="Plataforma" required>
+            <input type="url" placeholder="URL Imagen" required>
+            <button type="submit" class="btn btn-dark">Añadir película</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 IMDB</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="imdb.js"></script>
+</body>
+</html>
