@@ -124,13 +124,7 @@ h1 {
     object-fit: cover;
 }
 
-#Peliculas {
-    display: none;
-    display: flex;
-    justify-content: center;
-}
-
-.cards {
+.row {
     border-bottom: 2px solid rgb(50, 50, 68);
     display: flex;
     justify-content: center;
@@ -149,14 +143,6 @@ h1 {
     max-width: 25%;
     padding-left: 0;
     padding-right: 0;
-}
-
-.card {
-    margin: 0.5rem;
-}
-
-.imgPrin {
-    width: 100%;
 }
 
 form {
@@ -178,7 +164,7 @@ form h3 {
     color: white;
 }
 
-.btn2 {
+.btn {
     margin: auto;
     padding: 5px 10px;
     border-radius: 10px;

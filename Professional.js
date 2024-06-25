@@ -23,9 +23,9 @@ class Professional {
 let professionals = [];
 
 document.addEventListener("DOMContentLoaded", () => {
-    const enlaceProfesionales = document.getElementById("enlaceProfesionales");
-    const sectionProfesionales = document.getElementById("sectionProfesionales");
-    const listaProfesionales = document.getElementById("listaProfesionales");
+    let enlaceProfesionales = document.getElementById("enlaceProfesionales");
+    let sectionProfesionales = document.getElementById("sectionProfesionales");
+    let listaProfesionales = document.getElementById("listaProfesionales");
 
     enlaceProfesionales.addEventListener("click", () => {
         document.getElementById("sectionPrincipal").style.display = "none";
@@ -51,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
             listaProfesionales.appendChild(professionalDiv);
         });
     }
-
 });
 
 module.exports = Professional;

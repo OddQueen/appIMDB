@@ -26,7 +26,11 @@
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.0v6pWmUWXyKOiGfL8NKa3gHaKk%26pid%3DApi&f=1&ipt=bd051025d5192653c63a279b4a719e865b0f9de49097405538f92fd8d1083ca2&ipo=images" class="card-img-top" alt="Mad Max">
                     <div class="card-body">
                         <h5 class="card-title">Mad Max: Furia en la carretera</h5>
-                        <p class="card-text">8.1</p>
+                        <p class="card-text"><strong>Año:</strong>2024</p>
+                        <p class="card-text"><strong>Nacionalidad:</strong>EEUU</p>
+                        <p class="card-text"><strong>Género:</strong>Acción, aventura, ciencia ficción</p>
+                        <p class="card-text"><strong>Idioma:</strong>Español</p>
+                        <p class="card-text"><strong>Plataforma:</strong>Max</p>
                         <a href="#" class="btn btn-dark">Ver detalles</a>
                     </div>
                 </div>
@@ -36,7 +40,11 @@
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.1LJ-th-2pxKGLsFjICUj6gAAAA%26pid%3DApi&f=1&ipt=d5bed40d062fbac14db85182f4bba595a3ee711674e1ba2167c9b8163d620d55&ipo=images" class="card-img-top" alt="Dune">
                     <div class="card-body">
                         <h5 class="card-title">Dune</h5>
-                        <p class="card-text">8.0</p>
+                        <p class="card-text"><strong>Año:</strong>2021</p>
+                        <p class="card-text"><strong>Nacionalidad:</strong>EEUU</p>
+                        <p class="card-text"><strong>Género:</strong>Acción, aventura, drama</p>
+                        <p class="card-text"><strong>Idioma:</strong>Inglés</p>
+                        <p class="card-text"><strong>Plataforma:</strong>Prime video</p>     
                         <a href="#" class="btn btn-dark">Ver detalles</a>
                     </div>
                 </div>
@@ -46,7 +54,11 @@
                     <img src="assets/del reves.jpeg" class="card-img-top" alt="Del revés 2">
                     <div class="card-body">
                         <h5 class="card-title">Del revés 2</h5>
-                        <p class="card-text">8.6</p>
+                        <p class="card-text"><strong>Año:</strong>2024</p>
+                        <p class="card-text"><strong>Nacionalidad:</strong>EEUU</p>
+                        <p class="card-text"><strong>Género:</strong>Animación, aventura, comedia</p>
+                        <p class="card-text"><strong>Idioma:</strong>Inglés</p>
+                        <p class="card-text"><strong>Plataforma:</strong>Cines</p>                        
                         <a href="#" class="btn btn-dark">Ver detalles</a>
                     </div>
                 </div>
@@ -56,21 +68,25 @@
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ct5V9D0KwmdNXSvFyPSHDAHaK8%26pid%3DApi&f=1&ipt=d7437b4624bade949bf36d763f572b8e547313e5d546ab0d4c60073844d37e11&ipo=images" class="card-img-top" alt="Los juegos del hambre: Balada de pájaros cantores y serpientes">
                     <div class="card-body">
                         <h5 class="card-title">Los juegos del hambre: Balada de pájaros cantores y serpientes</h5>
-                        <p class="card-text">8.8</p>
+                        <p class="card-text"><strong>Año:</strong>2023</p>
+                        <p class="card-text"><strong>Nacionalidad:</strong>EEUU</p>
+                        <p class="card-text"><strong>Género:</strong>Acción, aventura, drama</p>
+                        <p class="card-text"><strong>Idioma:</strong>Inglés</p>
+                        <p class="card-text"><strong>Plataforma:</strong>Prime video</p>                        
                         <a href="#" class="btn btn-dark">Ver detalles</a>
                     </div>
                 </div>
             </div>
         </div>
-        <form>
+        <form id="movieForm">
             <h3>Añadir Nueva Película</h3>
-            <input type="text" placeholder="Título" required>
-            <input type="number" placeholder="Año de estreno" required>
-            <input type="text" placeholder="Nacionalidad" required>
-            <input type="text" placeholder="Género" required>
-            <input type="text" placeholder="Idioma" required>
-            <input type="text" placeholder="Plataforma" required>
-            <input type="url" placeholder="URL Imagen" required>
+            <input type="text" id="titulo" placeholder="Título" required>
+            <input type="number" id="anio" placeholder="Año de estreno" required>
+            <input type="text" id="nacionalidad" placeholder="Nacionalidad" required>
+            <input type="text" id="genero" placeholder="Género" required>
+            <input type="text" id="idioma" placeholder="Idioma" required>
+            <input type="text" id="plataforma" placeholder="Plataforma" required>
+            <input type="url" id="photo" placeholder="URL Imagen" required>
             <button type="submit" class="btn btn-dark">Añadir película</button>
         </form>
     </main>
@@ -81,6 +97,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="imdb.js"></script>
-</body>
+    <script src="Movie.js"></script>
+    <script src="Professional.js"></script></body>
 </html>
